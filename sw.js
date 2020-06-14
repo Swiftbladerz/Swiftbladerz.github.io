@@ -8,11 +8,11 @@ self.addEventListener('install', function(event) {
           '/manifest.json',
           '/src/css/app.css',
           '/src/js/app.js'
-          '/src/icons/images-icons-96x96.png',
-          '/src/icons/images-icons-144x144.png',
-          '/src/icons/images-icons-192x192.png',
-          '/src/icons/images-icons-384x384.png',
-          '/src/icons/images-icons-512x512.png'
+          '/src/images/icons/app-icon-96x96.png',
+          '/src/images/icons/app-icon-144x144.png',
+          '/src/images/icons/app-icon-192x192.png',
+            '/src/images/icons/app-icon-384x384.png',
+          '/src/images/icons/app-icon-512x512.png',
         ])
       })
   );
