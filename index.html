@@ -39,13 +39,13 @@
   <div class="course-feature" id="responsive">
     <input type="text" name="nama" id="nama" placeholder="Nama">
     <br>
-    <input type="number" name="usia" id="usia" placeholder="Usia">
+    <input type="number" name="usia" id="usia" placeholder="Usia" oninput="check(this)">
     <br>
-    <input type="number" name="uang_awal" id="uang_awal" placeholder="Uang Awal">
+    <input type="number" name="uang_awal" id="uang_awal" placeholder="Uang Awal" oninput="check(this)">
     <br>
-    <input type="number" name="suku_bunga" id="suku_bunga" placeholder="Suku Bunga per Tahun">
+    <input type="number" name="suku_bunga" id="suku_bunga" placeholder="Suku Bunga per Tahun" oninput="check(this)">
     <br>
-    <input type="number" name="lama_penyimpanan" id="lama_penyimpanan" placeholder="Lama Penyimpanan(dalam tahun)">
+    <input type="number" name="lama_penyimpanan" id="lama_penyimpanan" placeholder="Lama Penyimpanan(dalam tahun)" oninput="check(this)">
     <br>
   </div>
 
@@ -56,5 +56,15 @@
   <button>Kalkulasi</button>
 </div>
 <script src="/src/js/app.js"></script>
+<script>
+ function check(input) {
+   if (input.value == 0) {
+     input.setCustomValidity('The number must not be zero.');
+   } else {
+     // input is fine -- reset the error message
+     input.setCustomValidity('');
+   }
+ }
+</script>
 </body>
 </html>
