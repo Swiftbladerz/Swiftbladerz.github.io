@@ -3,9 +3,9 @@ body, html {
   font-family: Arial, sans-serif;
 }
 
-.animate-in {
+/* .animate-in {
   animation: fade-slide 1.5s forwards;
-}
+} */
 
 .title {
   width: 100%;
