@@ -14,12 +14,13 @@ self.addEventListener('install', function(event) {
           '/menu_1.html',
           '/menu_2.html',
           '/menu_3.html',
+          '/cart.html',
           '/main.js',
-          '/menu/patisserie.jpg',
-          '/menu/parfait1.jpg',
-          '/menu/macaroon2.jpg',
-          '/menu/cookie2.jpg',
-          '/menu/parfait2.jpg',
+          '/menu/patisserie.png',
+          '/menu/parfait1.png',
+          '/menu/macaroon2.png',
+          '/menu/cookie2.png',
+          '/menu/parfait2.png',
         ]);
       })
   )
