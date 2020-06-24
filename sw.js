@@ -14,7 +14,6 @@ self.addEventListener('install', function(event) {
           '/menu_1.html',
           '/menu_2.html',
           '/menu_3.html',
-          '/cart.html',
           '/main.js',
           '/menu/patisserie.png',
           '/menu/parfait1.png',
